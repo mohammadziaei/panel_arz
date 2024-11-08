@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/login.css" />
+    <title> جزئیات حساب </title>
+  </head>
+  <body dir="rtl" class="dashboard dashboard-accounting w-100 overflow-x-hidden" >
+
+    <div class="row">
+        <div class="col-lg-3 col-xl-2 d-none d-lg-block" >
+            <aside class="bg-surface-100 ctext-primary px-2 py-4 d-flex flex-column">
+                <div class="logo text-center">
+                    <p> <i class="bi bi-currency-bitcoin"></i> <span> LOCALY TETHER </span></p>
+                </div>
+                <div class="nav-aside">
+                    <ul class="nav flex-column gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link ctext-primary rounded-3" aria-current="page" href="/index.html"> <i class="bi bi-speedometer2"></i> <span class="ms-2"> داشبورد </span>  </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active ctext-primary rounded-3" href="/accounting.html"><i class="bi bi-coin"></i> <span class="ms-2"> حسابداری </span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link ctext-primary rounded-3" href="/robots.html"> <i class="bi bi-robot"></i> <span class="ms-2"> مدیریت ربات ها </span> </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link ctext-primary rounded-3" href="/users.html"> <i class="bi bi-people"></i> <span class="ms-2"> کاربرها </span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link ctext-primary rounded-3" href="/profile.html"> <i class="bi bi-person-bounding-box"></i> <span class="ms-2"> پروفایل </span> </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link ctext-primary rounded-3" href="#"><i class="bi bi-power"></i>  <span class="ms-2"> خروج </span>   </a>
+                          </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="col col-lg-9 col-xl-10 py-4 overflow-x-hidden">
+            <main>
+                <div class="container-fluid"> 
+
+                    <!-- alert -->
+                     <section id="alert-box">
+                     </section>
+                    
+                    <div class="row g-3">
+                      <!-- general info -->
+                        <div class="col-12">
+                          <section class="general-card-info bg-surface-100 p-4 rounded-4">
+
+                            <h1 class="ctext-primary fs-5 mb-4"> شارژ کیف پول به مقدار 1,000,000 تومان  <span class="tag-purple rounded-3"> رد شده </span></h1>
+                            <div class="row g-4">
+                              <div class="col-12 col-sm-6">
+                                <span class="title ctext-primary"> درخواست : </span> <span class="detials px-3 rounded-3 tag-green "> شارژ کیف پول </span>
+                              </div>
+                              <div class="col-12 col-sm-6">
+                                <span class="title ctext-primary"> درخواست دهنده : </span> <span class="detials px-3 rounded-3 tag-green"> محمد ضیائی </span>
+                              </div>
+                              <div class="col-12 col-sm-6">
+                                <span class="title ctext-primary"> میزان ارز : </span><span class="detials px-3 rounded-3 tag-green"> 1,000,000 تومان </span>
+                              </div>
+                              <div class="col-12 col-sm-6">
+                                <span class="title ctext-primary"> شماره حساب : </span><span class="detials px-3 rounded-3 tag-green"> 6037-0087-0215-6523 </span>
+                              </div>
+                              <div class="col-12 col-sm-6">
+                                <span class="title ctext-primary"> پاسخ دهنده : </span><span class="detials px-3 rounded-3 tag-blue"> محمد بروجردی </span>
+                              </div>
+                              <div class="col-12 col-sm-6">
+                                <span class="title ctext-primary"> زمان پاسخ </span><span class="detials px-3 rounded-3 tag-blue"> 1403/8/16 </span>
+                              </div>
+                            </div>
+                          </section>
+                        </div>
+
+                      <!-- filters and search -->
+                        <div class="col-12">
+                          <section class="accounting-card-info bg-surface-100 rounded-4 p-4">
+                            <form action="#">
+                                <ul class="list-group ctext-primary">
+                                  <li class="clist-group-item d-flex justify-content-starts flex-wrap align-items-center bg-surface-100 gap-2">
+                                    <div class="cw-300">
+                                      <h5> درخواست دهنده </h5>
+                                    </div>
+                                    <input type="text" class="form-control cw-300 rounded-pill bg-surface-100" >
+                                  </li>
+                                  <li class="clist-group-item d-flex justify-content-starts flex-wrap align-items-center bg-surface-100 gap-2" >
+                                    <div class="cw-300">
+                                      <h5> میزان ارز </h5>
+                                    </div>
+                                    <input type="text" class="form-control cw-300 rounded-pill bg-surface-100" >
+                                  </li>
+                                  <li class="clist-group-item d-flex justify-content-starts flex-wrap align-items-center bg-surface-100 gap-2">
+                                    <div class="cw-300">
+                                      <h5> تصویر فیش </h5>
+                                    </div>
+                                      <input type="file" class="form-control cw-300 rounded-pill bg-surface-100" >
+                                      <img src="./assets/images/fish001.jpg" alt="Image" class="img-thumbnail" width="100" data-bs-toggle="modal" data-bs-target="#imageModal" style="cursor:pointer;">
+                                      
+                                      <!-- مدال بوت‌استرپ -->
+                                      <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content w-75">
+                                            <div class="modal-body">
+                                              <img src="./assets/images/fish001.jpg" alt="Image" class="img-fluid w-100" style="object-fit:contain;">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </li>
+                                  <li class="clist-group-item d-flex justify-content-starts flex-wrap align-items-center bg-surface-100 gap-2">
+                                    <div class="cw-300">
+                                      <h5> وضعیت درخواست </h5>
+                                    </div>
+                                      <select class="form-select cw-300 rounded-pill cbtn-surface " aria-label="Default select example">
+                                        <option class="cbtn-surface" selected>گزینه ای را انتخاب کنید</option>
+                                        <option class="cbtn-surface" value="1"> تایید شده </option>
+                                        <option class="cbtn-surface" value="2"> در انتظار بررسی </option>
+                                        <option class="cbtn-surface" value="3"> رد شده </option>
+                                      </select>
+                                  </li>
+                                </ul>
+                                <div class="text-end">
+                                  <button id="save-option " class="btn cbtn-primary">
+                                    ذخیره
+                                  </button>
+                                </div>
+  
+                              </form>
+                          </section>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- show sidebar in phone -->
+    <div class="menu-phone d-block d-lg-none">
+
+      <button class="btn menu-more cbtn-primary position-fixed ps-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        نوار ابزار
+      </button>
+      
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+          <button type="button" class="btn menu-close position-absolute cbtn-primary" data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        <div class="offcanvas-body p-0">
+            <aside class="bg-surface-100 ctext-primary px-2 py-4 d-flex flex-column">
+              <div class="logo text-center">
+                  <p> <i class="bi bi-currency-bitcoin"></i> <span> LOCALY TETHER </span></p>
+              </div>
+              <div class="nav-aside">
+                  <ul class="nav flex-column gap-2">
+                      <li class="nav-item">
+                          <a class="nav-link active ctext-primary rounded-3" aria-current="page" href="#"> <i class="bi bi-speedometer2"></i> <span class="ms-2"> داشبورد </span>  </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ctext-primary rounded-3" href="/accounting.html"><i class="bi bi-coin"></i> <span class="ms-2"> حسابداری </span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ctext-primary rounded-3" href="/robots.html"> <i class="bi bi-robot"></i> <span class="ms-2"> مدیریت ربات ها </span> </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ctext-primary rounded-3" href="/users.html"> <i class="bi bi-people"></i> <span class="ms-2"> کاربرها </span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ctext-primary rounded-3" href="/profile.html"> <i class="bi bi-person-bounding-box"></i> <span class="ms-2"> پروفایل </span> </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ctext-primary rounded-3" ><i class="bi bi-power"></i>  <span class="ms-2"> خروج </span>   </a>
+                        </li>
+                  </ul>
+              </div>
+            </aside>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/main.js"></script>
+
+
+  </body>
+</html>
